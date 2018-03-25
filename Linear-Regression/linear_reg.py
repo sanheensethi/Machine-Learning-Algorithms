@@ -1,6 +1,5 @@
 from numpy import * 
 from matplotlib import pyplot as plt
-%matplotlib inline
 
 #Getting data from file and spliting it into x axis and y axis
 def getdata(datafile,delimiter_in_file,header_skiping):
@@ -130,3 +129,5 @@ def run(trainfile,testfile,delimiter,skip_header,num,alpha):
 # --------------Main---------------- #
 
 run('data/train.csv','data/test.csv',',',1,5000,0.0001)
+print()
+print('Sanheen Sethi')
