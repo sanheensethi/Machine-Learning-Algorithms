@@ -129,4 +129,4 @@ def run(trainfile,testfile,delimiter,skip_header,num,alpha):
 
 # --------------Main---------------- #
 
-run('train.csv','test.csv',',',1,5000,0.0001)
+run('data/train.csv','data/test.csv',',',1,5000,0.0001)
