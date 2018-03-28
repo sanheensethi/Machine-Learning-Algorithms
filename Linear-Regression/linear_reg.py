@@ -18,7 +18,7 @@ def error(m,b,x,y):
     total_error = 0.0
     for i in range(0,len(x)):
         total_error+= ((m * x[i] + b) - y[i]) ** 2
-    return total_error/float(len(x))
+    return total_error/(2 *float(len(x)))
 
 #Function by which we can get new values of m and b
 #Using gradient descent ( Partial Derivative )
